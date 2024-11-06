@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #load the data & show the data dimensions (1314,6)
-data_path = Path("D:/cam/D100/PS2_EX2/PS2_EX2") / "smoking_data.csv"
+data_path = Path(__file__).parent / "smoking_data.csv"
 df = pd.read_csv(data_path)
 print(df.shape)
 
