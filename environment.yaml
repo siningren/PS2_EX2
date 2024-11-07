@@ -1,0 +1,11 @@
+name: smoke  
+channels:
+  - defaults  
+dependencies:
+  - python=3.9  
+  - pandas  
+  - numpy  
+  - matplotlib  
+  - seaborn 
+  - pre-commit  
+  - pip  
